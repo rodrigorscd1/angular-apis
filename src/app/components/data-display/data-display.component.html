@@ -1,0 +1,11 @@
+<p>data-display works!</p>
+<div>
+    <h2>Data Display</h2>
+    <button (click)="fetchData()">Fetch Data</button>
+    <ul>
+      <li *ngFor="let item of data">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.body }}</p>
+      </li>
+    </ul>
+  </div>
