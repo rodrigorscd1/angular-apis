@@ -2,6 +2,7 @@
 <div>
     <h2>Data Display</h2>
     <button (click)="fetchData()">Fetch Data</button>
+    <button (click)="clearData()">Clear Data</button>
     <ul>
       <li *ngFor="let item of data">
         <h3>{{ item.title }}</h3>

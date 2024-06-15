@@ -23,4 +23,8 @@ export class DataDisplayComponent implements OnInit {
         this.data = data;
       });
   }
+  clearData() {
+    this.data = [];
+  }
+  
 }
